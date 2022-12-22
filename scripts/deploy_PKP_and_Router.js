@@ -16,8 +16,8 @@ async function main() {
     // this can be removed if Ethernal isn't being used - it's handy to see validations.
     // Ethernal set up instructions:  https://www.tryethernal.com
     // In the hardhat.config.js file >>>  require('hardhat-ethernal');
-    hre.ethernalUploadAst = true; // clean and reset the workspace - ie, forget about old contracts, and start fresh.
-    await hre.ethernal.resetWorkspace("LocalHardHat"); /// <<< your ethernal project name.
+    // hre.ethernalUploadAst = true; // clean and reset the workspace - ie, forget about old contracts, and start fresh.
+    // await  hre.ethernal.resetWorkspace('LocalHardHat');  /// <<< your ethernal project name.
 
     let RouterContractFactory;
     let TokenContractFactory;
